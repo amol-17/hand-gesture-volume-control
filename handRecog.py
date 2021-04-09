@@ -41,29 +41,3 @@ class handDetector():
 
         return LandmarkList
 
-
-# def main():
-#     lastTime = 0
-#     currTime = 0
-#     cap = cv2.VideoCapture(0)
-#     detector = handDetector()
-#     while True:
-#         s, img = cap.read()
-#         img = detector.findHands(img)
-#         LandmarkList = detector.findHandPosition(img)
-#         if len(LandmarkList) != 0:
-#             print(LandmarkList[4])
-
-#         currTime = time.time()
-#         fps = 1 / (currTime - lastTime)
-#         lastTime = currTime
-
-#         cv2.putText(img, str(int(fps)), (10, 70), cv2.FONT_HERSHEY_PLAIN, 3,
-#                     (255, 0, 255), 3)
-
-#         cv2.imshow("Image", img)
-#         cv2.waitKey(1)
-
-
-# if __name__ == "__main__":
-#     main()
