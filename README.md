@@ -1,6 +1,6 @@
 # hand-gesture-volume-control
 
-## You can control volume levels of your system just by using your thumb and index finger. It can be benifitted if you are away from your system and want to increase or decrese your system volume. It's a fun project, give it a try. ##
+## You can control volume levels of your system just by using your thumb and index finger. It can be benefitted if you are away from your system and want to increase or decrease your system volume. It's a fun project, give it a try. ##
 
 # How to install
 
